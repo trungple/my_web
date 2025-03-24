@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ngô Tấn Trung - Embedded Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Ngô Tấn Trung</h1>
+            <p>Embedded Software Engineer Fresher</p>
+            <p class="tagline">Seeking a full-time entry-level opportunity with a focus on AUTOSAR and Embedded Software Development</p>
+        </div>
+    </header>
+
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p><strong>Email:</strong> <a href="mailto:tantrung.nam2001@gmail.com">tantrung.nam2001@gmail.com</a></p>
+        <p><strong>Phone:</strong> +84 794090432</p>
+        <p><strong>Address:</strong> Ho Chi Minh City, Vietnam</p>
+    </section>
+
+    <section class="education">
+        <h2>Education</h2>
+        <p><strong>Ho Chi Minh City University of Technology and Education (HCMUTE)</strong><br>
+            2020 - 2024 | Major: Automotive Engineering Technology | GPA: 8.0/10.0</p>
+        <p><strong>FPT Academy</strong><br>
+            Dec 2023 - May 2024 | Embedded Software Engineer</p>
+    </section>
+
+    <section class="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Proficient in CAN, SENT, SPI, I2C, UART protocols</li>
+            <li>Microcontroller: ARM 32bit MCU (NXP S32K144)</li>
+            <li>Experience in communicating with sensors (LM35, DHT11)</li>
+            <li>Exposure to Matlab/Simulink</li>
+            <li>SDLC and Software Development Models: Agile</li>
+            <li>Programming languages: C/C++, Python, Git</li>
+        </ul>
+    </section>
+
+    <section class="projects">
+        <h2>Personal Projects</h2>
+    
+        <div class="project">
+            <h3 class="project-title">Write a Program for an Alarm Clock</h3>
+            <p><strong>Duration:</strong> March - May 2024</p>
+            <p><strong>Description:</strong> This project requires writing a basic library for an alarm clock, using APIs from hardware functions like CAN, UART, SPI, I2C, GPIO, and communication with the MCU via interfaces like Clock, Nvic, and SystemTick. The library helps users utilize basic features of the clock with essential functions.</p>
+            <p><strong>Responsibilities:</strong></p>
+            <ul>
+                <li>Investigating the protocol specifications for each peripheral module.</li>
+                <li>Using the Reference Manual of the NXP S32K144 board to identify and configure register addresses.</li>
+                <li>Working exclusively with registers, avoiding the use of standard libraries.</li>
+            </ul>
+            <p><strong>Technologies Used:</strong></p>
+            <ul>
+                <li>Hardware: NXP S32K144, 8-digit seven-segment LED</li>
+                <li>Software: C language, Keil C</li>
+            </ul>
+            <a href="https://github.com/Weizy-NTT/Alarm-Clock.git" target="_blank" class="github-link">GitHub Repository</a>
+        </div>
+    
+        <div class="project">
+            <h3 class="project-title">Design a System to Display Vehicle Parameters via OBDII Port on Smartphones</h3>
+            <p><strong>Duration:</strong> February - May 2024</p>
+            <p><strong>Description:</strong> This project focuses on studying the CAN communication protocol and applying the knowledge by communicating with ECUs inside the engine via the OBD II port. It then designs an application to display the data received on smartphones through a Bluetooth module.</p>
+            <p><strong>Responsibilities:</strong></p>
+            <ul>
+                <li>Conducting research on the CAN network.</li>
+                <li>Designing hardware for data acquisition.</li>
+                <li>Communicating with nodes in the CAN network to obtain data, including vehicle speed, engine speed, and any DTCs (Diagnostic Trouble Code).</li>
+                <li>Enhancing functionality to clear DTCs.</li>
+            </ul>
+            <p><strong>Technologies Used:</strong></p>
+            <ul>
+                <li>Hardware: Arduino UNO R3, MCP2515, Bluetooth HC-05, LM2596S</li>
+                <li>Software: C language, Arduino IDE</li>
+            </ul>
+            <a href="https://github.com/Weizy-NTT/CAN_project.git" target="_blank" class="github-link">GitHub Repository</a>
+        </div>
+    
+    </section>
+    
+    
+
+    <footer>
+        <p>Created by Ngô Tấn Trung</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
